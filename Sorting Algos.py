@@ -12,9 +12,10 @@ def select_sort(a, i, n):
 def insert_sort(a, i, n):
     if i >= n:
         return
-    while i > 0 and a[i] < a[i - 1]:
-        a[i], a[i - 1] = a[i - 1], a[i]
-        i = i - 1
+    j = i
+    while j > 0 and a[j] < a[j - 1]:
+        a[j], a[j - 1] = a[j - 1], a[j]
+        j = j - 1
     insert_sort(a, i + 1, n)
 
 
