@@ -31,4 +31,4 @@ Quick sort sort algorithm
  if l = 0, r = len of the list, then the entire list will be sorted.
  the algorithm divides the total list(or sub list with sepcified 'l' and 'r' indices)into two parts, such that, the elements less than or equal to the first element of the list(or sublist) into first part and values greater will be in second part. the first element(with which the comparison is made) is then later placed between the two divided parts so all the elements less are left side and greater are right side. 
  It keeps on doing the same operation recursively and gets to base case where the lists are already sorted and thus yielding an entire sorted list.
- Time complexity is O(n^2) worst case. O(nlogn) for average and best cases. But it is an inplace sorting algo, so space complexity far better when compared to Merge sort.
+ Time complexity is O(n^2) worst case. O(nlogn) for average and best cases. But it is an inplace sorting algo, so space complexity far better when compared to Merge sort
